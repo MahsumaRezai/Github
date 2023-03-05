@@ -7,3 +7,10 @@ function select() {
 }
 select();
 // button section 
+function button() {
+    document.getElementById("btn").style.width = "350px";
+    document.getElementById("btn").style.color = "white";
+
+    
+
+}
