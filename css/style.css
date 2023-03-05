@@ -32,7 +32,8 @@
 .select {
   width: 20px;
   height: 20px;
-  background: gainsboro; }
+  background: gainsboro;
+  color: white; }
 
 li {
   list-style: none;
@@ -43,6 +44,6 @@ li {
   background: black;
   border: 1px solid gray;
   border-radius: 10px;
-  width: 300px;
+  width: 250px;
   height: 25px;
   color: gainsboro; }
