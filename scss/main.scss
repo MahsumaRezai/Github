@@ -52,6 +52,36 @@ li{
     width: 250px;
     height: 25px;
     color: gainsboro;
+}
+// head-section-two 
+.head-section-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: white;
+    border-bottom: 1px solid  gainsboro;
+    height: 80px;
+    padding-top: 20px;
+}
+.btn {
+    background: white;
+    border:none;
+    &__link {
+        text-decoration: none;
 
+    }
+    &__text {
+        font-size: 14px;
+        color: gray;
+        font-family: sans-serif;
+        font-style: normal;
+    
+    }
 
+}
+.btn:hover{
+    background: gainsboro;
+    
 }

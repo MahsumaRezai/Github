@@ -1,6 +1,7 @@
 // select section 
 function select() {
-    document.getElementById("sel").style.width = "100px";
+    let n = document.getElementById("sel");
+    n.style.width = "100px";
     document.getElementById("sel").style.backgroundColor = "white";
     document.getElementById("sel").style.color = "black";
     document.getElementById("sel").style.gap = "5px";
@@ -10,7 +11,5 @@ select();
 function button() {
     document.getElementById("btn").style.width = "350px";
     document.getElementById("btn").style.color = "white";
-
-    
 
 }
