@@ -108,4 +108,25 @@ li {
   gap: 10px; }
 
 .name-user {
-  text-align: center; }
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold; }
+
+.name-user-small {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: gray; }
+
+.name-user-infor {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 17px; }
+
+.user-btn__btn {
+  width: 300px;
+  height: 40px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  background: ghostwhite; }
