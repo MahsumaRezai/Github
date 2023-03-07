@@ -74,3 +74,38 @@ li {
   background: gainsboro;
   height: 40px;
   border-radius: 5px; }
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 300px; }
+
+.main-left {
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.main-rigth {
+  width: 50%;
+  background: red; }
+
+.imgage {
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  margin-top: -10px; }
+
+.user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; }
+
+.name-user {
+  text-align: center; }

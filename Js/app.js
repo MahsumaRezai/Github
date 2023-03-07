@@ -13,3 +13,4 @@ function button() {
     document.getElementById("btn").style.color = "white";
 
 }
+button()
