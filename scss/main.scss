@@ -73,7 +73,7 @@ li{
 
     }
     &__text {
-        font-size: 14px;
+        font-size: 15px;
         color: gray;
         font-family: sans-serif;
         font-style: normal;
@@ -83,5 +83,7 @@ li{
 }
 .btn:hover{
     background: gainsboro;
-    
+    height: 40px;
+    border-radius: 5px;
+
 }

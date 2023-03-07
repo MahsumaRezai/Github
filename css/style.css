@@ -65,10 +65,12 @@ li {
   .btn__link {
     text-decoration: none; }
   .btn__text {
-    font-size: 14px;
+    font-size: 15px;
     color: gray;
     font-family: sans-serif;
     font-style: normal; }
 
 .btn:hover {
-  background: gainsboro; }
+  background: gainsboro;
+  height: 40px;
+  border-radius: 5px; }
