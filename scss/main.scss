@@ -213,3 +213,25 @@ li{
     border-bottom: 1px solid gainsboro;
     padding-top: 10px;
 }
+.find-link {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+    &__text {
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    &__para {
+        font-size: 15px;
+        font-family: sans-serif;
+        color: gray
+
+    }
+
+}
+.url {
+    font-size: 15px;
+    color: blue;
+}
