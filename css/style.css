@@ -145,9 +145,19 @@ li {
   font-size: 15px; }
 
 .main-rigth {
-  width: 50%;
-  background: red; }
+  width: 50%; }
 
 .information {
   border: 1px solid gainsboro;
-  height: 200px; }
+  height: 300px;
+  border-radius: 10px;
+  padding: 20px; }
+
+.head-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: sans-serif; }
+  .head-info__text {
+    font-size: 12px;
+    color: gray; }
