@@ -151,3 +151,12 @@ li{
 
     }
 }
+// follow section 
+.follow {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+
+}
