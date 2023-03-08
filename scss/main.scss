@@ -160,3 +160,12 @@ li{
     font-size: 15px;
 
 }
+.location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    gap: 10px;
+    text-align: center;
+    
+}
