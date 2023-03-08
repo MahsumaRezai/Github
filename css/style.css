@@ -94,7 +94,7 @@ li {
   width: 300px;
   height: 300px;
   border-radius: 200px;
-  margin-top: -10px; }
+  margin-top: -220px; }
 
 .user {
   display: flex;
@@ -151,7 +151,8 @@ li {
   border: 1px solid gainsboro;
   height: 500px;
   border-radius: 10px;
-  padding: 20px; }
+  padding: 20px;
+  margin-top: 20px; }
 
 .head-info {
   display: flex;
@@ -200,3 +201,16 @@ li {
 .url {
   font-size: 15px;
   color: blue; }
+
+.content-project {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.project {
+  width: 380px;
+  height: 100px;
+  border: 1px solid gainsboro;
+  border-radius: 10px; }
