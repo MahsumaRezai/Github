@@ -103,10 +103,7 @@ li{
     align-items: center;
 
 }
-.main-rigth {
-    width: 50%;
-    background: red
-}
+
 // left section 
 .imgage{
     width: 300px; 
@@ -167,5 +164,16 @@ li{
     justify-items: center;
     gap: 10px;
     text-align: center;
-    
+    font-family: sans-serif;
+    font-size: 15px;
+
+}
+// information
+.main-rigth {
+    width: 50%;
+}
+.information {
+   border: 1px solid gainsboro;
+   height: 200px;
+
 }
