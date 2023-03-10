@@ -87,7 +87,7 @@ li {
   gap: 300px; }
   @media screen and (max-width: 1500px) {
     .main {
-      gap: 10px; } }
+      gap: 200px; } }
 
 .main-left {
   width: 20px;
@@ -101,6 +101,14 @@ li {
   height: 300px;
   border-radius: 200px;
   margin-top: -220px; }
+  @media screen and (max-width: 1500px) {
+    .imgage {
+      margin-top: -350px; } }
+  @media screen and (max-width: 950px) {
+    .imgage {
+      margin-top: -1050px;
+      width: 200px;
+      height: 200px; } }
 
 .user {
   display: flex;
@@ -133,6 +141,10 @@ li {
   border-radius: 10px;
   background: ghostwhite; }
 
+@media screen and (max-width: 1000px) {
+  .user-btn {
+    width: 250px; } }
+
 .follow {
   display: flex;
   flex-direction: row;
@@ -155,6 +167,9 @@ li {
   @media screen and (max-width: 1500px) {
     .main-rigth {
       height: 900px; } }
+  @media screen and (max-width: 950px) {
+    .main-rigth {
+      height: 1500px; } }
 
 .information {
   border: 1px solid gainsboro;
@@ -180,6 +195,12 @@ li {
     font-size: 40px;
     font-weight: bold;
     font-family: sans-serif; }
+    @media screen and (max-width: 950px) {
+      .head-logo__text {
+        font-size: 30px; } }
+
+.log-hand {
+  height: 40px; }
 
 .head-logo-two {
   font-size: 25px;
@@ -206,10 +227,16 @@ li {
     font-size: 15px;
     font-family: sans-serif;
     color: gray; }
+    @media screen and (max-width: 950px) {
+      .find-link__para {
+        font-size: 12px; } }
 
 .url {
   font-size: 15px;
   color: blue; }
+  @media screen and (max-width: 950px) {
+    .url {
+      font-size: 12px; } }
 
 .content-project {
   display: grid;
@@ -217,6 +244,18 @@ li {
   gap: 20px;
   padding-top: 20px;
   padding-bottom: 20px; }
+
+@media screen and (max-width: 1500px) {
+  .img-text {
+    width: 600px; } }
+
+@media screen and (max-width: 1024px) {
+  .img-text {
+    width: 480px; } }
+
+@media screen and (max-width: 950px) {
+  .img-text {
+    width: 400px; } }
 
 .project {
   width: 380px;
@@ -229,6 +268,12 @@ li {
   padding: 10px;
   font-family: sans-serif;
   font-size: 15px; }
+  @media screen and (max-width: 1500px) {
+    .project {
+      width: 300px; } }
+  @media screen and (max-width: 1024px) {
+    .project {
+      width: 250px; } }
 
 .btn-project {
   width: 50px;
