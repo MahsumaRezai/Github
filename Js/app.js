@@ -26,3 +26,4 @@ function imgwindow() {
     window.setTimeout(closepage, 5000)
 }
 
+
