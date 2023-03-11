@@ -1,5 +1,4 @@
 
-
 //main section
 .main {
     display: flex;
@@ -12,11 +11,9 @@
      gap: 200px;        
     }
     @media screen and (max-width:800px) {
-        gap: 180px
-        
+        gap: 180px 
         
     }
-   
 }
 .main-left {
     width: 20px;
@@ -30,8 +27,6 @@
     @media screen and (max-width:550px) {
         display: none;  
     }
-
-
 }
 
 // left section 
@@ -83,7 +78,6 @@
         font-size: 15px;
         
     }
-
   
 }
 .name-user-infor {
@@ -92,7 +86,6 @@
     font-size: 17px;
     @media screen and (max-width:950px) {
         font-size: 15px;
-        
     }  
 }
 .user-btn {
@@ -207,7 +200,7 @@
     border-bottom: 1px solid gainsboro;
     padding-bottom: 10px;
 }
-// head-img.
+// head-img
 .head-img {
     border-bottom: 1px solid gainsboro;
     padding-top: 10px;
